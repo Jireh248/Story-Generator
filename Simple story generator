@@ -1,0 +1,14 @@
+intro = ("Lets create a story ") #introduction to the story generator
+print(intro)
+
+print("========================") # divider
+
+name = input("Enter a name: ") # list of questions for the story generator
+place = (input("Enter a place: "))
+animal = (input("Enter the name of your favorite animal: "))
+color = (input("Enter your favorite color: "))
+planet = input("Name the first planet that comes in your head: ")
+
+print("================================================================")
+
+print("Once there was a exo human named", name, "and this exo human lives in", place, "because their home planet", planet, "was destroyed by evil ",animal, "but ", name, "is going to use their ", color, "ship to fly to a new planet, in search for a new home to find their lost exo family to one day be united again... The End...")
